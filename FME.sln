@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FME", "FME\FME.vcxproj", "{DDE6870B-49F0-877C-D26B-9E7C3E74937C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{7FA9857C-6BE0-860D-14CD-6C1000E3020F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win64 = Debug|Win64
+		Release|Win64 = Release|Win64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDE6870B-49F0-877C-D26B-9E7C3E74937C}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{DDE6870B-49F0-877C-D26B-9E7C3E74937C}.Debug|Win64.Build.0 = Debug Win64|x64
+		{DDE6870B-49F0-877C-D26B-9E7C3E74937C}.Release|Win64.ActiveCfg = Release Win64|x64
+		{DDE6870B-49F0-877C-D26B-9E7C3E74937C}.Release|Win64.Build.0 = Release Win64|x64
+		{7FA9857C-6BE0-860D-14CD-6C1000E3020F}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{7FA9857C-6BE0-860D-14CD-6C1000E3020F}.Debug|Win64.Build.0 = Debug Win64|x64
+		{7FA9857C-6BE0-860D-14CD-6C1000E3020F}.Release|Win64.ActiveCfg = Release Win64|x64
+		{7FA9857C-6BE0-860D-14CD-6C1000E3020F}.Release|Win64.Build.0 = Release Win64|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

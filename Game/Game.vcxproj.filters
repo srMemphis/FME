@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FME">
+      <UniqueIdentifier>{DDE6870B-49F0-877C-D26B-9E7C3E74937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FME\src">
+      <UniqueIdentifier>{74CBC5C8-E0AA-4464-E9C2-CF3A5521ABC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FME\src\core">
+      <UniqueIdentifier>{6CC43DA5-5827-CD49-01AD-0500EDEE98CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FME\src\core\app">
+      <UniqueIdentifier>{BC8B3DDE-A884-5C30-D1B6-41B5BD0E3C3C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\FME\src\core\app\App.h">
+      <Filter>FME\src\core\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FME\src\pch.h">
+      <Filter>FME\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\FME\src\core\app\App.cpp">
+      <Filter>FME\src\core\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FME\src\pch.cpp">
+      <Filter>FME\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
